@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			sans: ['Roboto', 'Arial', 'Helvetica', 'sans-serif', 'Poppins', 'Volkhov'],
+		  },
+
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
