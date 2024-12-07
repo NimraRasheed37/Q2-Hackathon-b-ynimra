@@ -1,4 +1,6 @@
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Logos from "@/components/Logos";
 import Navbar from "@/components/Navbar";
 import TopHeader from "@/components/TopHeader";
 
@@ -8,6 +10,8 @@ export default function Home() {
     <TopHeader />
     <Header />
     <Navbar />
+    <Hero />
+    <Logos />
     </>
   );
 }
