@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
   	extend: {
 		fontFamily: {
-			sans: ['Roboto', 'Arial', 'Helvetica', 'sans-serif', 'Poppins', 'Volkhov'],
+			sans: ['Roboto', 'Arial', 'Helvetica', 'sans-serif', 'Inter'],
 		  },
 
   		colors: {
