@@ -1,11 +1,10 @@
 
-export default function Login() {
+export default function login() {
     return (
       <>
-      <div>
-
-      <h1>Hi! nimra</h1>
-      </div>
+  <div>
+    <h1>Practice</h1>
+  </div>
       </>
     );
   }
