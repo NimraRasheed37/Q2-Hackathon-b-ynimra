@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function TopHeader() {
   return (
     <>
-      <div className="bg-[#272343] w-full h-[48px] flex justify-between items-center px-12 md:px-28">
+      <div className="bg-[#272343] w-full h-[48px] flex justify-between items-center px-4 sm:px-12 md:px-28">
         <div className="lg:w-[255px] h-[16px] sm:flex justify-center gap-2 hidden">
           <Image src="/img/top/check.png" alt="" width={18} height={18} />
           <p className="text-white text-[13px] font-inter font-[400]">
