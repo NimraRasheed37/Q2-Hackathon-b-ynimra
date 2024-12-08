@@ -55,13 +55,20 @@ export default function TopHeader() {
       {/* Sidebar */}
       {isSidebarOpen && (
         <div className="fixed top-0 left-0 h-full w-2/3 bg-white z-50 shadow-lg flex flex-col p-6 sm:hidden">
+          <div className="flex justify-between items-center">
+            <div className="flex justify-center gap-2 items-center mb-4">
+          <Image src="/img/logo/logo.png" alt="logo" width={32} height={32} />
+        <h1 className="text-[18px] font-inter font-semibold text-[#272343]">Comforty</h1>
+            </div>
           <button
             className="text-gray-600 text-2xl mb-4 self-end"
             onClick={() => setIsSidebarOpen(false)}
           >
             &times;
           </button>
-          <ul className="flex flex-col gap-4">
+          </div>
+
+          <ul className="flex flex-col gap-4 mt-4">
             <Link href="/">
               <li
                 className="text-[14px] text-[#636270] font-inter font-semibold hover:text-[#007580]"

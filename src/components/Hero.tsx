@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div className="px-4 sm:px-12 xl:px-28">
-    <div className="bg-gray-100 mx-auto xl:w-[1200px] w-[95%] h-auto py-10 xl:h-[700px] flex flex-col md:flex-row items-center justify-center gap-12 rounded-bl-3xl lg:px-8">
+    <div className="bg-gray-100 mx-auto xl:w-[1200px] w-full h-auto py-10 xl:h-[700px] flex flex-col md:flex-row items-center justify-center gap-12 rounded-bl-3xl lg:px-8">
   
       {/* Text and Button Section */}
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1200px] px-6 md:px-12">
