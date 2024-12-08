@@ -86,7 +86,7 @@ export default function TopHeader() {
                 Product
               </li>
             </Link>
-            <Link href="">
+            <Link href="/pages/product-page">
               <li
                 className="text-[14px] text-[#636270] font-inter font-semibold hover:text-[#007580]"
                 onClick={() => setIsSidebarOpen(false)}

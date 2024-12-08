@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="bg-gray-100 mx-auto xl:w-[1200px] w-[95%] h-auto py-10 xl:h-[700px] flex flex-col md:flex-row items-center justify-center rounded-bl-3xl">
+    <div className="px-4 sm:px-12 xl:px-28">
+    <div className="bg-gray-100 mx-auto xl:w-[1200px] w-[95%] h-auto py-10 xl:h-[700px] flex flex-col md:flex-row items-center justify-center gap-12 rounded-bl-3xl lg:px-8">
   
       {/* Text and Button Section */}
       <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1200px] px-6 md:px-12">
@@ -24,12 +25,13 @@ export default function Hero() {
           <Image
             src="/img/hero/chair.png" 
             alt="Chair"
-            width={400}
-            height={400}
+            width={350}
+            height={350}
             objectFit="cover"
           />
         </div>
       </div>
+    </div>
     </div>
   );
 }
