@@ -1,6 +1,7 @@
 GIAIC Q2 - HACKATHON PROJECT
 
-Popular Products Showcase:
+Furniture E-commerce Store:
+(Design converted from FIgma to NExt.js, using Tailwind CSS for designing)
 
 This project is a beautifully designed product showcase website featuring popular furniture products. It offers a clean and responsive layout to highlight products effectively on various screen sizes. Built with modern web technologies, this project is perfect for businesses aiming to display their offerings elegantly.
 
