@@ -3,6 +3,10 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Logos from "@/components/Logos";
 import Navbar from "@/components/Navbar";
+import OurPoducts from "@/components/OurProducts";
+import PopularStyles from "@/components/Popular";
+import ProductCards from "@/components/ProductCards";
+import TopCategories from "@/components/TopCategories";
 import TopHeader from "@/components/TopHeader";
 
 export default function Home() {
@@ -13,7 +17,10 @@ export default function Home() {
     <Navbar />
     <Hero />
     <Logos />
-
+    <ProductCards/>
+    <PopularStyles />
+    <TopCategories/>
+    <OurPoducts/>
     <Footer/>
     </>
   );

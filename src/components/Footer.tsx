@@ -197,7 +197,7 @@ export default function Footer() {
               Zakirsoft
             </a>
           </p>
-          <div className="mt-4 flex justify-center space-x-4">
+          <div className="mt-4 flex justify-center space-x-2 md:space-x-4">
             <FaCcMastercard size={40} />
             <FaPaypal size={40} />
             <FaCcAmex size={40} />
