@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Logos() {
   return (
     <>
-    <div className="flex justify-between items-center px-4 md:px-12 lg:px-28 flex-wrap mt-8 md:h-[139] h-auto">
+    <div className="flex justify-between items-center px-8 md:px-12 lg:px-28 flex-wrap mt-8 md:h-[139] h-auto">
     <Image src="/img/logo/zap1.png" alt="logo 1" width={100} height={90} objectFit="contain" />
     <Image src="/img/logo/pip2.png" alt="logo 1" width={107} height={109} objectFit="contain" />
     <Image src="/img/logo/cib3.avif" alt="logo 1" width={135} height={139} objectFit="contain" />
