@@ -1,3 +1,20 @@
+GIAIC Q2 - HACKATHON PROJECT
+
+Popular Products Showcase:
+
+This project is a beautifully designed product showcase website featuring popular furniture products. It offers a clean and responsive layout to highlight products effectively on various screen sizes. Built with modern web technologies, this project is perfect for businesses aiming to display their offerings elegantly.
+
+Features:
+
+Responsive design tailored for various screen sizes (mobile, tablet, desktop).
+Dynamic product display with varying layout adjustments for large screens.
+Clean, minimalist UI with well-organized content sections.
+Technologies Used
+Next.js: For building a fast, server-rendered React application.
+Tailwind CSS: For creating a responsive and modern design.
+React Icons: For elegant and meaningful icons.
+Image Optimization: Using next/image for optimized image loading.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
