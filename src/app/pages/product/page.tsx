@@ -31,7 +31,7 @@ export default function Product() {
 {/* Products Gallery */}
 <div className="flex flex-col items-center justify-center px-4 sm:px-12 lg:px-24">
   <div>
-    <h2 className="font-roboto text-lg sm:text-2xl md:text-3xl xl:text-[50px] text-black font-medium">
+    <h2 className="font-roboto text-lg sm:text-2xl md:text-3xl xl:text-[45px] text-black font-medium">
       Follow Products And Discounts On Instagram
     </h2>
   </div>

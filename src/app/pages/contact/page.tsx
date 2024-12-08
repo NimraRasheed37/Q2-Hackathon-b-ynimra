@@ -13,7 +13,9 @@ export default function Contact() {
     <Header />
     <Navbar />
     <ContactForm/>
-    <div className="bg-[#F4F4F4] py-4 px-4 sm;px-12 lg:px-28 flex flex-wrap justify-between mx-auto md:h-[270px] items-center gap-8">
+    <div className="px-4 sm:px-12 lg:px-28 ">
+
+    <div className="bg-[#F4F4F4] py-4 flex flex-wrap justify-between px-10 w-full md:h-[270px] items-center gap-8 lg:gap-4">
     <div className="flex justify-center items-center gap-4">
       <Image
       src="/img/icons/trophy.png"
@@ -37,7 +39,7 @@ export default function Contact() {
       className=""
       />
       <div className="flex flex-col justify-start gap-2">
-        <h1 className="sm:text-[25px] text-[20px] font-bold text-[#242424]">High Quality</h1>
+        <h1 className="sm:text-[25px] text-[20px] font-bold text-[#242424]">Warranty Protection</h1>
         <p className="text-[16px] sm:[20px] text-[#898989] font-medium">Ovewr 2 years</p>
       </div>
     </div>
@@ -51,12 +53,13 @@ export default function Contact() {
       className=""
       />
       <div className="flex flex-col justify-start gap-2">
-        <h1 className="sm:text-[25px] text-[20px] font-bold text-[#242424]">High Quality</h1>
+        <h1 className="sm:text-[25px] text-[20px] font-bold text-[#242424]">24 / 7 Support</h1>
         <p className="text-[16px] sm:[20px] text-[#898989] font-medium">Dedicated support</p>
       </div>
     </div>
 
     </div>
+      </div>
     <Footer/>
     </>
   );
