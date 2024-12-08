@@ -38,7 +38,7 @@ export default function TopCategories() {
                 src={category.image}
                 alt={category.title}
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 className="group-hover:scale-105 transition-transform duration-300"
               />
             </div>

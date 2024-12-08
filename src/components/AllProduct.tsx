@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FaShoppingCart } from "react-icons/fa";
 
-export default function OurProducts() {
+export default function AllProducts() {
   const products = [
     {
       id: 1,
@@ -33,7 +33,7 @@ export default function OurProducts() {
     },
     {
         id: 5,
-        image: "/img/products/c7.png",
+        image: "/img/products/c8.png",
         title: "Library Stool Chair",
         price: "$20",
         badge: "New",
@@ -48,7 +48,7 @@ export default function OurProducts() {
       },
       {
         id: 7,
-        image: "/img/products/c6.png",
+        image: "/img/products/c7.png",
         title: "Library Stool Chair",
         price: "$20",
       },
@@ -58,11 +58,38 @@ export default function OurProducts() {
         title: "Library Stool Chair",
         price: "$20",
       },
+      {
+        id: 9,
+        image: "/img/products/c6.png",
+        title: "Library Stool Chair",
+        price: "$20",
+        badge: "New",
+      },
+      {
+        id: 10,
+        image: "/img/products/c5.png",
+        title: "Library Stool Chair",
+        price: "$20",
+        originalPrice: "$30",
+        badge: "Sales",
+      },
+      {
+        id: 11,
+        image: "/img/products/c1.png",
+        title: "Library Stool Chair",
+        price: "$20",
+      },
+      {
+        id: 12,
+        image: "/img/products/c9.png",
+        title: "Library Stool Chair",
+        price: "$20",
+      },
   ];
 
   return (
     <div className="px-4 sm:px-12 lg:px-28">
-      <h1 className="text-center font-bold mb-4 mt-6 text-[#272343] font-inter text-xl lg:text-[32px]">Our Products</h1>
+      <h1 className="text-center font-bold mb-4 mt-6 text-[#272343] font-inter text-xl lg:text-[32px]">All Products</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto py-8 ">
       {products.map((product) => (
         <div

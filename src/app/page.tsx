@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Logos from "@/components/Logos";
 import Navbar from "@/components/Navbar";
-import OurPoducts from "@/components/OurProducts";
+import OurProducts from "@/components/OurProducts";
 import PopularStyles from "@/components/Popular";
 import ProductCards from "@/components/ProductCards";
 import TopCategories from "@/components/TopCategories";
@@ -20,7 +20,7 @@ export default function Home() {
     <ProductCards/>
     <PopularStyles />
     <TopCategories/>
-    <OurPoducts/>
+    <OurProducts/>
     <Footer/>
     </>
   );
